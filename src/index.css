@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  /* padding: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+.overlay {
+  position: relative;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.overlay .x {
+  position: relative;
+  left: 30%;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: black;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+
+.inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  background-color: rgb(184, 195, 203);
+  border-radius: 5px;
+  padding: 0 50px;
+}
+
+.inner {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 90%;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.circle {
+  padding: 8px 13px;
+
+  background-color: azure;
+  color: black;
+  border-radius: 50%;
+}
+
+.rectangle {
+  background-color: blue;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.rectangle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.word {
+  font-weight: 900;
+  font-size: 19px;
+  text-transform: capitalize;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+}
