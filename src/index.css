@@ -19,19 +19,27 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 60%;
 }
 
 .overlay .x {
   position: relative;
   left: 30%;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: bolder;
   margin-bottom: 20px;
   color: black;
   cursor: pointer;
+  font-size: larger;
   /* border: 1px solid red; */
 }
 
+.overlay > div {
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
 .inner-container {
   display: flex;
   align-items: center;
@@ -87,6 +95,7 @@
   text-transform: capitalize;
   word-spacing: 2px;
   letter-spacing: 2px;
+  text-wrap: nowrap;
 }
 
 .active {
